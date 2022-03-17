@@ -7,6 +7,8 @@
     --bg_dark_gray: rgba(31, 31, 31, 1);
     --gray: rgba(114, 114, 114, 1);
     --bg_blue_footer: rgba(0, 67, 156, 1);
+    --bg_light_gray: rgba(190, 188, 187, 1);
+
 }
 
 /* Utilities */
@@ -43,6 +45,10 @@
     background-color: var(--bg_blue_footer);
 }
 
+.bg_light_gray {
+    background-color: var(--bg_light_gray);
+}
+
 
 
 
@@ -76,5 +82,10 @@ body {
 .nuove_uscite {
     height: 500px;
     background-color: var(--bg_dark_gray);
+}
+
+.playstation_plus {
+    height: 400px;
+    background-color: var(--bg_light_gray);
 }
 
