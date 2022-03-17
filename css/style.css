@@ -8,6 +8,8 @@
     --gray: rgba(114, 114, 114, 1);
     --bg_blue_footer: rgba(0, 67, 156, 1);
     --bg_light_gray: rgba(190, 188, 187, 1);
+    --bg_dark_blue: rgba(22, 28, 59, 1);
+
 
 }
 
@@ -88,4 +90,11 @@ body {
     height: 400px;
     background-color: var(--bg_light_gray);
 }
+
+.playstation_now {
+    height: 400px;
+    background-color: var(--bg_dark_blue);
+}
+
+
 
