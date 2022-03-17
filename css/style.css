@@ -61,6 +61,16 @@ body {
 }
 
 
+.dropdown_triangle::after{
+    display: inline-block;
+    content: "";
+    background-image: url("/img/chevron-down-solid.svg");
+    width: 10px;
+    height: 10px;
+    background-repeat: no-repeat;
+}
+
+
 /* MAIN */
 
 /* Jumbotron */
