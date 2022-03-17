@@ -96,5 +96,9 @@ body {
     background-color: var(--bg_dark_blue);
 }
 
+.site_footer {
+    background-color: var(--bg_blue_footer);
+}
+
 
 
