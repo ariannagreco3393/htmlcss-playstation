@@ -67,3 +67,14 @@ body {
     height: 1200px;
 }
 
+.banner {
+    height: 800px;
+    background-size: cover;
+    background-image: url("/img/it-takes-two-hero-banner-desktop.jpg");
+}
+
+.nuove_uscite {
+    height: 500px;
+    background-color: var(--bg_dark_gray);
+}
+
