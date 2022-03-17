@@ -1,0 +1,66 @@
+/* Colors */
+:root {
+    --btn_dark_gray: rgba(54, 54, 54, 1);
+    --btn_red: rgba(205, 61, 15, 1);
+    --blue_logo: rgba(0, 112, 209, 1);
+    --btn_blue: rgba(45, 100, 230, 1);
+    --bg_dark_gray: rgba(31, 31, 31, 1);
+    --gray: rgba(114, 114, 114, 1);
+    --bg_blue_footer: rgba(0, 67, 156, 1);
+}
+
+/* Utilities */
+
+.btn_dark_gray {
+    background-color: var(--btn_dark_gray);
+}
+
+.btn_red {
+    background-color: var(--btn_red);
+}
+
+.blue_logo {
+    background-color: var(--blue_logo);
+}
+
+.blue_logo_font {
+    color: var(--blue_logo);
+}
+
+.btn_blue {
+    background-color: var(--btn_blue);
+}
+
+.bg_dark_gray {
+    background-color: var(--bg_dark_gray);
+}
+
+.gray {
+    color: var(--gray);
+}
+
+.bg_blue_footer {
+    background-color: var(--bg_blue_footer);
+}
+
+
+
+
+/* Commons rules */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* MAIN */
+
+/* Jumbotron */
+
+.jumbotron {
+    height: 800px;
+    background-size: cover;
+    background-image: url("/img/jumbo-bg.png");
+}
+
+
