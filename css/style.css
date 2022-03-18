@@ -60,14 +60,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Navbar */
 
-.dropdown_triangle::after{
-    display: inline-block;
-    content: "";
-    background-image: url("/img/chevron-down-solid.svg");
-    width: 10px;
-    height: 10px;
-    background-repeat: no-repeat;
+
+.dropdown_toggle::after{
+   border: none;
+   font: var(--fa-font-solid);
+   content: "\f107"
+
 }
 
 
@@ -79,11 +79,23 @@ body {
     height: 800px;
     background-size: cover;
     background-image: url("/img/jumbo-bg.png");
+    position: relative;
 }
+
+.cta_jumbotron {
+    position: absolute;
+    bottom: 2rem;
+}
+
+/* playstation 5 */
+
 
 .playstation_5 {
     height: 1200px;
 }
+
+/* banner */
+
 
 .banner {
     height: 800px;
@@ -91,20 +103,30 @@ body {
     background-image: url("/img/it-takes-two-hero-banner-desktop.jpg");
 }
 
+/* nuove uscite */
+
+
 .nuove_uscite {
     height: 500px;
     background-color: var(--bg_dark_gray);
 }
+
+/* playstation plus */
+
 
 .playstation_plus {
     height: 400px;
     background-color: var(--bg_light_gray);
 }
 
+/* playstation now */
+
 .playstation_now {
     height: 400px;
     background-color: var(--bg_dark_blue);
 }
+
+/* FOOTER */
 
 .site_footer {
     background-color: var(--bg_blue_footer);
