@@ -78,7 +78,16 @@ body {
 .jumbotron {
     height: 800px;
     background-size: cover;
-    background-image: url("/img/jumbo-bg.png");
+    background-position: center;
+    background-image: url("../img/jumbo-bg.png");
+}
+
+.rounded_20p {
+    border-radius: 20px;
+}
+
+.selector_border {
+    box-sizing: content-box;
 }
 
 
