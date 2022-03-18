@@ -79,13 +79,8 @@ body {
     height: 800px;
     background-size: cover;
     background-image: url("/img/jumbo-bg.png");
-    position: relative;
 }
 
-.cta_jumbotron {
-    position: absolute;
-    bottom: 2rem;
-}
 
 /* playstation 5 */
 
