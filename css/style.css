@@ -27,6 +27,10 @@
     background-color: var(--blue_logo);
 }
 
+.blue_logo_color {
+    color: var(--blue_logo);
+}
+
 .blue_logo_font {
     color: var(--blue_logo);
 }
@@ -80,6 +84,12 @@ body {
     background-size: cover;
     background-position: center;
     background-image: url("../img/jumbo-bg.png");
+    position: relative;
+}
+
+.jumbotron_cta {
+    position: absolute;
+    bottom: 2rem;
 }
 
 /* Jumbotron games card */
@@ -89,9 +99,12 @@ body {
     border-radius: 20px;
 }
 
-.selector_border {
-    box-sizing: content-box;
+.border_blue {
+    border: 1px solid var(--blue_logo);
+    padding: 2px;
 }
+
+
 
 
 /* playstation 5 */
