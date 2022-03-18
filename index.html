@@ -7,6 +7,7 @@
     <title>Playstation</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <header class="site_header">
@@ -15,47 +16,82 @@
         </div>
     <!-- /.sony_bar -->
         <div class="main_menu">
-            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <img src="./img/play_logo.svg" class="img-fluid" style="height: 60px;" alt="">
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <a class="navbar-brand" href="#">
+                    <img src="../img/play_logo.svg" height=60 alt="">
+                  </a>
+                  <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#main_navbar"
+                    aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-black fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Giochi
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="#">Action</a></li>
-                          <li><a class="dropdown-item" href="#">Another action</a></li>
-                          <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
+                  <div class="collapse navbar-collapse" id="main_navbar">
+                    <ul class="left_menu navbar-nav me-auto mt-2 mt-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">Giochi</a>
+                        <div class="dropdown-menu w-100" aria-labelledby="dropdownId">
+                          <a class="dropdown-item" href="#">Giochi 1</a>
+                          <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">Hardware</a>
+                        <div class="dropdown-menu w-100" aria-labelledby="dropdownId">
+                          <a class="dropdown-item" href="#">Hardware 1</a>
+                          <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">Servizi</a>
+                        <div class="dropdown-menu w-100" aria-labelledby="dropdownId">
+                          <a class="dropdown-item" href="#">Servizi 1</a>
+                          <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">Novita</a>
+                        <div class="dropdown-menu w-100" aria-labelledby="dropdownId">
+                          <a class="dropdown-item" href="#">Novitá 1</a>
+                          <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                      </li>
+                      <li class="nav-item ">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">Fai Acquisti</a>
+                        <div class="dropdown-menu w-100" aria-labelledby="dropdownId">
+                          <a class="dropdown-item" href="#">Acquisti 1</a>
+                          <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                          aria-haspopup="true" aria-expanded="false">Supporto</a>
+                        <div class="dropdown-menu w-100" aria-labelledby="dropdownId">
+                          <a class="dropdown-item" href="#">Supporto 1</a>
+                          <a class="dropdown-item" href="#">Action 2</a>
+                        </div>
                       </li>
                     </ul>
-                    <form class="d-flex align-items-center">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-black fs-5" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                My PlayStation
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><hr class="dropdown-divider"></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                            </li>
-                        </ul>
-                        <button class="btn btn_dark_gray text-white rounded-pill py-2 fs-5 mx-4">Accedi</button>
-                        <img src="./img/lens.svg" class="img-fluid" style="height: 30px;" alt="">                    
-                    </form>
-                  </div>
-                </div>
-              </nav>
-        </div>
+                    <ul class="right_menu navbar-nav d-flex align-items-center">
+                        <li class="nav-item">
+                          <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">My Playstation</a>
+                          <div class="dropdown-menu w-100" aria-labelledby="dropdownId">
+                            <a class="dropdown-item" href="#">My Play 1</a>
+                            <a class="dropdown-item" href="#">Action 2</a>
+                          </div>
+                        </li>
+                        <li class="nav-item px-2">
+                          <a href="" class="btn btn-dark rounded-pill py-2 fs-5">Accedi</a>
+                        </li>
+                        <li class="nav-item">
+                          <img height="30" src="../img/lens.svg" alt="">
+                        </li>
+                      </ul>
     <!-- main_menu  -->
     </header>
     <!-- /.site_header -->
@@ -276,5 +312,16 @@
         </div>
     </footer>
     <!-- /.site_footer -->
+
+        <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
 </body>
 </html>

@@ -67,12 +67,22 @@ body {
 /* Navbar */
 
 
-.dropdown_toggle::after{
-   border: none;
-   font: var(--fa-font-solid);
-   content: "\f107"
+/* \f107 */
 
-}
+.dropdown-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown-toggle::after {
+    border: none;
+    font: var(--fa-font-solid);
+    content: "\f107";
+  }
+  
+  .dropdown-toggle.show::after {
+    content: "\f106";
+  }
 
 
 /* MAIN */
