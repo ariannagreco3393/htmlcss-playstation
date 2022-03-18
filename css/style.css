@@ -176,5 +176,9 @@ body {
     background-color: var(--bg_blue_footer);
 }
 
+.footer_filter {
+    filter: brightness(0) invert(1);
+}
+
 
 
