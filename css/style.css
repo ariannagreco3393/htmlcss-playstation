@@ -56,6 +56,11 @@
 }
 
 
+.mt_6 {
+    margin-top: 6rem;
+}
+
+
 
 
 /* Commons rules */
@@ -120,9 +125,7 @@ body {
 /* playstation 5 */
 
 
-.playstation_5 {
-    height: 1200px;
-}
+
 
 /* banner */
 
