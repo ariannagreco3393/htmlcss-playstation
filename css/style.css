@@ -9,7 +9,7 @@
     --bg_blue_footer: rgba(0, 67, 156, 1);
     --bg_light_gray: rgba(190, 188, 187, 1);
     --bg_dark_blue: rgba(22, 28, 59, 1);
-
+    --btn_light_gray: rgba(217, 218, 220, 1);
 
 }
 
@@ -39,6 +39,10 @@
     background-color: var(--btn_blue);
 }
 
+.btn_light_gray {
+    background-color: var(--btn_light_gray);
+}
+
 .bg_dark_gray {
     background-color: var(--bg_dark_gray);
 }
@@ -59,6 +63,11 @@
 .mt_6 {
     margin-top: 6rem;
 }
+
+.pt_6 {
+    padding-top: 6rem;
+}
+
 
 
 
@@ -151,14 +160,12 @@ body {
 
 
 .playstation_plus {
-    height: 400px;
     background-color: var(--bg_light_gray);
 }
 
 /* playstation now */
 
 .playstation_now {
-    height: 400px;
     background-color: var(--bg_dark_blue);
 }
 
