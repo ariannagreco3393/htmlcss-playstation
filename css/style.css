@@ -144,11 +144,15 @@ body {
     padding: 2px;
 }
 
-.card_transition:hover {
-    
+.card_animation:hover {
+    animation: bounce 1s linear;
 }
 
-
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
 
 
 /* playstation 5 */
