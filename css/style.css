@@ -99,6 +99,20 @@ body {
     content: "\f106";
   }
 
+  .service_list {
+      list-style: none;
+      gap: 2rem;
+  }
+
+  .service_list li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--blue_logo); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+
 
 /* MAIN */
 
@@ -107,6 +121,7 @@ body {
 .jumbotron {
     height: 800px;
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     background-image: url("../img/jumbo-bg.png");
     position: relative;
